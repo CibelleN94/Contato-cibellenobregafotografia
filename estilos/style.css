@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+   background-color: #FFB6C1;
+   background-image: url(Fundo\ retro.png);
+   
+  
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 65px;
+    color: #FF1493;
+    text-shadow: 0.1em 0.0em  #f3c910;
+}
+div.iphone {
+    text-align: center;
+   
+}

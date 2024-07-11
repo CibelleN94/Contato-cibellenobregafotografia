@@ -1,4 +1,14 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family:'Rustic';
+    src: url(../fontes/Rustic\ Bettina.ttf) format(opentype);
+    font-style: normal;
+}
+@font-face {
+    font-family:'Cuties' ;
+    src: url(../fontes/Cuties.otf);
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -14,6 +24,21 @@ body {
     background-size:35%;
     background-attachment: fixed;
     
+}
+h1 {
+    font-family: 'Rustic', times, serif;
+    color: #FAF8F2;
+    text-align: center;
+    margin: 24px;
+    font-weight: normal;
+    font-size: 60px;
+    
+    
+    
+}
+
+.blink {
+    animation: blink 1s step(1,end) infinite;
 }
 main {
     height: 100vh;
@@ -44,6 +69,7 @@ section#redessociais {
    
 }
 section#redessociais img {
+    background-color: #FAF8F2;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -51,9 +77,9 @@ section#redessociais img {
     box-sizing: border-box;
 }
 section#redessociais img:hover {
-    border: 2px solid #faf8f2;
+    border: 2px solid #F9B2CD;
     transform: translate(-5%, -5%);
-    box-shadow: 2px 2px 5px #FAF8F2;
+    box-shadow: 2px 2px 5px #00000091;
     transition: transform .3s;
 
 }

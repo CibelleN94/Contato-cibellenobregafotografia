@@ -40,6 +40,7 @@ h1 {
 
 
 main {
+
     height: 100vh;
     position: relative;
 
@@ -64,17 +65,19 @@ iframe#tela {
 
 }
 section#redessociais {
-   text-align: right;
-   
-   
+    position: fixed;
+    float: left;
+    display: block;
+    padding: 14px 16px;   
 }
 section#redessociais img {
     background-color: #FAF8F2;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     box-shadow: 3px 3px 5px #FAF8F2;
     box-sizing: border-box;
+    
 }
 section#redessociais img:hover {
     border: 2px solid #F9B2CD;
@@ -86,7 +89,8 @@ section#redessociais img:hover {
 footer {
     color: #FAF8F2;
     background-color: #F9B2CD;
-    text-align: center;
-    margin: 25px;
+    text-align:center;
+    width: 100%;
+    margin: 20px;
     padding: 1px;
 }

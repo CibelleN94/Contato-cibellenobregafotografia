@@ -37,12 +37,12 @@ h1 {
     
 }
 
-.blink {
-    animation: blink 1s step(1,end) infinite;
-}
+
+
 main {
     height: 100vh;
     position: relative;
+
 
 }
 section#iphone {
@@ -64,14 +64,14 @@ iframe#tela {
 
 }
 section#redessociais {
-    text-align: justify;
-    margin-left: 28%;
+   text-align: right;
+   
    
 }
 section#redessociais img {
     background-color: #FAF8F2;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     box-shadow: 3px 3px 5px #FAF8F2;
     box-sizing: border-box;

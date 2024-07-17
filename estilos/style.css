@@ -31,7 +31,8 @@ h1 {
     text-align: center;
     margin: 24px;
     font-weight: normal;
-    font-size: 60px;  
+    font-size: 60px; 
+   
     
 }
 main {
@@ -59,7 +60,8 @@ iframe#tela {
 }
 section#redessociais {
     position: fixed;
-    text-align: right;
+    text-align:center;
+    right: 60%;
     float: left;
     display: block;
     padding: 14px 16px;
@@ -69,7 +71,7 @@ section#redessociais img {
     background-color: #F9B2CD;
     width: 80px;
     height: 80px;
-    border: 3px solid #db2e70;
+    border: 5px solid #db2e70;
     border-radius: 50%;
     box-shadow: 3px 3px 5px #3a3637;
     box-sizing: border-box;

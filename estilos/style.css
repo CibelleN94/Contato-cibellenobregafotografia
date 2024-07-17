@@ -21,7 +21,7 @@ body {
     background-color:#F9B2CD;
     background: url(../imagens/cameraolho.png);
     no-repeat top center;
-    background-size:35%;
+    background-size:25%;
     background-attachment: fixed;   
     
 }
@@ -59,6 +59,7 @@ iframe#tela {
 }
 section#redessociais {
     position: fixed;
+    text-align: right;
     float: left;
     display: block;
     padding: 14px 16px;

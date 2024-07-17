@@ -19,7 +19,6 @@ html, body {
 }
 body {
     background-color:#FAF8F2;
-    background: url(../imagens/cameraolho.png);
     no-repeat top center;
     background-size:25%;
     background-attachment: fixed;   

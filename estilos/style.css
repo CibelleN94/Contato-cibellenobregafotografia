@@ -18,7 +18,7 @@ html, body {
     width: 100vw;
 }
 body {
-    background-color:#F9B2CD;
+    background-color:#FAF8F2;
     background: url(../imagens/cameraolho.png);
     no-repeat top center;
     background-size:25%;
@@ -27,9 +27,11 @@ body {
 }
 h1 {
     font-family: 'Rustic', times, serif;
+    background-color:#FAF8F2;
     color: #db2e70;
     text-align: center;
     margin: 24px;
+    width: 100%;
     font-weight: normal;
     font-size: 60px; 
    

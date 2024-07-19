@@ -23,7 +23,6 @@ html, body {
 }
 body {
     background-color:#db2e70;
-    background-image: url(../imagens/cameraolho.png);
     background-size:50%;
     background-attachment: fixed;
     no-repeat top center;
@@ -82,7 +81,7 @@ section#redessociais img {
     background-color: #F9B2CD;
     width: 80px;
     height: 80px;
-    border: 5px solid #db2e70;
+    border: 5px solid #FAF8F2;
     border-radius: 50%;
     box-shadow: 3px 3px 5px #3a3637;
     box-sizing: border-box;

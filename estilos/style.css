@@ -9,6 +9,10 @@
     font-family:'Cuties' ;
     src: url(../fontes/Cuties.otf);
 }
+@font-face {
+    font-family: 'Hugheid';
+    src: url(../fontes/Hugheid.otf);
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -18,22 +22,28 @@ html, body {
     width: 100vw;
 }
 body {
-    background-color:#FAF8F2;
+    background-color:#db2e70;
+    background-image: url(../imagens/cameraolho.png);
+    background-size:50%;
+    background-attachment: fixed;
     no-repeat top center;
-    background-size:25%;
-    background-attachment: fixed;   
     
 }
 h1 {
-    font-family: 'Rustic', times, serif;
-    background-color:#FAF8F2;
-    color: #db2e70;
+    font-family: 'Hugheid', times, serif;
+    color:#FAF8F2;
     text-align: center;
-    margin: 24px;
+    margin: 5px;
     width: 100%;
-    font-weight: normal;
-    font-size: 60px; 
-   
+    font-size: 80px; 
+}
+
+h2 {
+    font-family: 'Hugheid', times, serif;
+    text-align:center;
+    font-size:40px;
+    margin: 15px;
+    color: #FAF8F2;
     
 }
 main {
